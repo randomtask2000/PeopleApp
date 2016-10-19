@@ -1,0 +1,26 @@
+{
+  "name": "antiscroll",
+  "main": [
+    "antiscroll.css",
+    "antiscroll.js"
+  ],
+  "description": "Cross-browser native OSX Lion scrollbars",
+  "license": "MIT",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.1",
+    "jquery-mousewheel": "~3.1.6"
+  },
+  "homepage": "https://github.com/Addepar/antiscroll",
+  "_release": "e0d1538cf4",
+  "_resolution": {
+    "type": "commit",
+    "commit": "e0d1538cf4f3fd61c5bedd6168df86d651f125da"
+  },
+  "_source": "git://github.com/Addepar/antiscroll.git",
+  "_target": "e0d1538cf4f3fd61c5bedd6168df86d651f125da",
+  "_originalSource": "Addepar/antiscroll"
+}
