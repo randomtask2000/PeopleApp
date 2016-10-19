@@ -1,12 +1,12 @@
 Welcome to the PeopleApp by Emilio Nicoli developed in ASP.NET CORE
 ================
 
-Intro text
+This app is currently incomplete and lacks the presentation layer inform of Empber data bindings and userfull unit tests.  
 
 Key Features
 ------------
 
-This app demonstrates...
+This app demonstrates a ASP.NET Core MVC application with database and Ember.js a implimentation.  However, due to the lack of time, this application remains unfinished :(
 
 Build and Run
 -------------
