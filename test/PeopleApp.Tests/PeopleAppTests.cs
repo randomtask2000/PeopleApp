@@ -19,7 +19,7 @@ namespace PeopleApp.Tests
         public void GetAgeTest(string sBirthDate)
         {
             DateTime date;
-            if (DateTime.TryParseExact(sBirthDate, "yyyy'.'MM'.'dd",
+            if (DateTime.TryParseExact(sBirthDate, "yyyy-MM-dd",
                                        CultureInfo.InvariantCulture,
                                        DateTimeStyles.None,
                                        out date))
