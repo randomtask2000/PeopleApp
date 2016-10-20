@@ -206,9 +206,9 @@
 -resource:"E:\Emilio\Backup\HealthCatalyst\dev\try1\PeopleApp\PeopleApp\src\PeopleApp\obj\Debug\netcoreapp1.0\PeopleAppdotnet-compile.deps.json",PeopleApp.deps.json
 "E:\Emilio\Backup\HealthCatalyst\dev\try1\PeopleApp\PeopleApp\src\PeopleApp\Program.cs"
 "E:\Emilio\Backup\HealthCatalyst\dev\try1\PeopleApp\PeopleApp\src\PeopleApp\Startup.cs"
+"E:\Emilio\Backup\HealthCatalyst\dev\try1\PeopleApp\PeopleApp\src\PeopleApp\Controllers\ApiController.cs"
 "E:\Emilio\Backup\HealthCatalyst\dev\try1\PeopleApp\PeopleApp\src\PeopleApp\Controllers\DebugController.cs"
 "E:\Emilio\Backup\HealthCatalyst\dev\try1\PeopleApp\PeopleApp\src\PeopleApp\Controllers\PeopleController.cs"
-"E:\Emilio\Backup\HealthCatalyst\dev\try1\PeopleApp\PeopleApp\src\PeopleApp\Controllers\RestController.cs"
 "E:\Emilio\Backup\HealthCatalyst\dev\try1\PeopleApp\PeopleApp\src\PeopleApp\Filters\ActionFilters\GlobalFilter.cs"
 "E:\Emilio\Backup\HealthCatalyst\dev\try1\PeopleApp\PeopleApp\src\PeopleApp\Filters\ActionFilters\LogActionFilter.cs"
 "E:\Emilio\Backup\HealthCatalyst\dev\try1\PeopleApp\PeopleApp\src\PeopleApp\Filters\ExceptionFilters\GlobalLoggingExceptionFilter.cs"

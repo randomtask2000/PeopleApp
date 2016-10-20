@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using EnPeople.Models;
 using Microsoft.AspNetCore.Hosting;
 
 namespace PeopleApp.Models

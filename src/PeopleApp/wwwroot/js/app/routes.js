@@ -1,10 +1,9 @@
 ﻿// Routes
 App.Router.map(function () {
-    //this.route("index", { path: "/" });
     this.route('about');
-    this.resource('people', { path: 'getpeople' });
+    this.route('getpeople');
     this.resource('genders', function () {
-        this.route('people', { path: 'getpeople' });
+        this.route('people', { path: '/:gender_name' });
     });
 });
 
@@ -30,7 +29,7 @@ App.GenresRoute = Ember.Route.extend({
 
 App.GroupsPeopleRoute = Ember.Route.extend({
     serialize: function (model) {
-        return { gender: model.get('name') };
+        return { gender_name: model.get('name') };
     },
     renderTemplate: function () {
         this.render({ controller: 'people' });

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
-using EnPeople.Models;
 
 namespace PeopleApp.Models
 {

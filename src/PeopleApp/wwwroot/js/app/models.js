@@ -7,7 +7,7 @@
     ImageFilename: DS.attr(),
     Age: DS.attr(),
     FLF: DS.attr(),
-    FFF: DS.attr()
+    FFF: DS.attr(),
 });
 
 // Ember Data expects a particular JSON payload format.
@@ -51,7 +51,7 @@ App.PersonAdapter = DS.RESTAdapter.extend({
         var data = store.serializerFor(type.typeKey).serialize(record);
         return this.ajax(this.buildURL(type.typeKey, data.ID), "PUT", { data: data });
     },
-    namespace: 'rest'
+    namespace: 'api'
 });
 
 App.Gender = DS.Model.extend({

@@ -19,5 +19,5 @@ App.PersonController = Ember.ObjectController.extend({
 });
 
 App.PersonController.reopenClass({
-    genders: ["Male", "Female"]
+    gendersA: ["Male", "Female"]
 });

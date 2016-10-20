@@ -18,6 +18,7 @@
                     <div class="navbar-inner">
                         <ul class="nav nav-tabs">
                             <li>{{#linkTo 'genders'}}Genres{{/linkTo}} </li>
+                            <li>{{#linkTo 'getpeople'}}People{{/linkTo}} </li>
                             <li>{{#linkTo 'about'}}About{{/linkTo}} </li>
                         </ul>
                     </div>
@@ -42,8 +43,8 @@
             <div class="navbar">
                 <div class="navbar-inner">
                     <ul class="nav nav-stacked">
-                        {{#each item in model}}
-                        <li>{{#linkTo 'genders.people' item}}{{item.name}}{{/linkTo}}</li>
+                        {{#each item in model }}
+                        <li>{{#linkTo 'gender.people' item}}{{item.name}}{{/linkTo}}</li>
                         {{/each}}
                     </ul>
                 </div>
@@ -57,7 +58,7 @@
         {{partial "people"}}
     </script>
     <script type="text/x-handlebars" data-template-name="_people">
-        {{#if model}}
+        {{#if model}} xxx
         <table class="table table-bordered table-condensed">
             <thead>
                 <tr><th>Title</th><th>Year</th><th>Rating</th><th></th></tr>

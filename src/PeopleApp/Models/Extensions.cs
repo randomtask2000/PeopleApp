@@ -1,15 +1,20 @@
 ﻿using System;
-using System.Globalization;
 using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
-namespace EnPeople.Models
+namespace PeopleApp.Models
 {
     public static class Extensions
     {
-        //http://myview.rahulnivi.net/dbset-find-api-missing-entity-framework-core-final-rc1-version/
+        /// <summary>
+        /// The current EntityFrameworkCore does not support a Find method, hence the below code
+        /// </summary>
+        /// <typeparam name="TEntity"></typeparam>
+        /// <param name="set"></param>
+        /// <param name="keyValues"></param>
+        /// <returns></returns>
         public static TEntity Find<TEntity>(this DbSet<TEntity> set, params object[] keyValues) where TEntity : class
         {
             var context = ((IInfrastructure<IServiceProvider>)set).GetService<DbContext>();
